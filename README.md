@@ -1,5 +1,6 @@
 # COMPSCI-4ZP6A-Capstone-Project-2024
-### Below is a board of helpful information and commands that may aid our development process...
+<span style="font-size:18px">Below is a board of helpful information and commands that may aid our development process...</span>
+
 
 ### Useful Links:
 - [JIRA SCRUM Board](https://parkitplace.atlassian.net/jira/software/projects/SCRUM/boards/1)
