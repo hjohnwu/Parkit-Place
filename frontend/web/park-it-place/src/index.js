@@ -1,12 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
+
 import "./index.css";
+import { Home } from "./pages/home";
+import { About } from "./pages/about";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <div className="App">
-      <h1 className="text-3xl font-bold underline text-red">ParkItPlace</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        {/*}<Route path="*" element={<NotFound />} /> {/* For unmatched routes */}
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
