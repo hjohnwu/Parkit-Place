@@ -20,7 +20,7 @@ npm -g install firebase-tools
 ```
 
 ### Firebase Commands
-log in in to servless provider run:
+starting basics for FireBase
 ```
 firebase login
 firebase emulators:start
