@@ -1,5 +1,9 @@
 ## COMPSCI-4ZP6A-Capstone-Project-2024
 
+### Rough Idea of Project Architecture
+![Project UML](docs/UML.png)
+
+
 ### Initializing Packages
 in repsepctive folder example: /backend run:
 ```
