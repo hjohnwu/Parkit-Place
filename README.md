@@ -1,4 +1,5 @@
 ## COMPSCI-4ZP6A-Capstone-Project-2024
+Below is a board of helpful information and commands that may be helpful in our development process...
 
 ### Rough Idea of Project Architecture
 ![Project UML](docs/UML.png)
