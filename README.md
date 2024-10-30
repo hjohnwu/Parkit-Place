@@ -1,6 +1,12 @@
 ## COMPSCI-4ZP6A-Capstone-Project-2024
 Below is a board of helpful information and commands that may be helpful in our development process...
 
+### Useful Links:
+- [JIRA SCRUM Board](https://parkitplace.atlassian.net/jira/software/projects/SCRUM/boards/1)
+- [Firebase Web Console](https://console.firebase.google.com/u/1/project/parkitplace-3dce5/overview)
+- [SRS Document](https://github.com/wu103-mcmaster/Parkit-Place-Capstone/blob/master/docs/Capstone%20SRS.pdf)
+- [Project Planning Document](https://github.com/wu103-mcmaster/Parkit-Place-Capstone/blob/master/docs/Capstone%20Project%20Planning.pdf)
+
 ### Rough Idea of Project Architecture
 ![Project UML](docs/UML.png)
 
