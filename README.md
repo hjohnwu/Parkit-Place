@@ -35,8 +35,7 @@ git remote set-head origin --a
 ```
 
 # Create & Merge GitHub Branch with JIRA
-
-Follow these steps to create a new branch for your assigned JIRA ticket and merge your changes effectively.
+Follow these steps to create a new branch for your assigned JIRA ticket.
 
 ## Steps
 
@@ -46,16 +45,21 @@ Follow these steps to create a new branch for your assigned JIRA ticket and merg
 2. **Update Your Local Repository** 
    Open your code workspace and run the following command to retrieve your newly created branch:
    ```
-   git pull --r
+   git pull -r
    ```
 3. **Checkout the New Branch**
    Switch to your newly created branch using the command: 
    ```
-   git checkout -b branch-name origin/branch-name
+   git checkout -b <branch-name> <remote>
    ```
-   To figure out the correct branch name, you can list all the branches:
+   To figure out the `<remote>` name, list all the branches:
    ```
    git branch -a
+   ```
+   `<branch-name>` is the local branch that will be associated w/ `<remote>`. Best practise is to have the same name, but without the "remote" keyword.
+   i.e. 
+      ```
+   git checkout -b create_database_schema remote/create_database_schema
    ```
 4. **Update Your Local Repository** 
    Open your code workspace and run the following command to retrieve your newly created branch:
@@ -68,6 +72,4 @@ Follow these steps to create a new branch for your assigned JIRA ticket and merg
   git push <remote> <branch-name>
   ```
 6. **Create a Pull Request**
-   Return to your JIRA ticket, go to the Development tab, and click on Create Pull Request to initiate the merge process.
-
-```
+  Return to your JIRA ticket, go to the Development tab, and click on Create Pull Request to initiate the merge process.
