@@ -15,6 +15,7 @@ module.exports = {
     "prefer-arrow-callback": "error",
     "quotes": ["error", "double", {"allowTemplateLiterals": true}],
     "new-cap": ["error", {"capIsNewExceptions": ["Router"]}],
+    "object-curly-spacing": "off", // Disable spacing rule
   },
   overrides: [
     {
