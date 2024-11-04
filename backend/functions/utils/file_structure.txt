@@ -1,0 +1,14 @@
+backend/
+└── functions/
+    ├── index.js                # Main entry point for Firebase functions
+    ├── routes/
+    │   ├── chat.js             # Chat routes
+    │   └── test.js             # Test route (other feature routes go here)
+    ├── controllers/
+    │   ├── chatController.js   # Handles chat logic (e.g., sending messages)
+    │   └── userController.js   # Handles user-related operations
+    ├── services/
+    │   ├── chatService.js      # Separate service for complex chat logic
+    │   └── userService.js      # Separate service for user-related logic
+    └── utils/
+        └── firebase.js         # Firebase initialization, database setup
